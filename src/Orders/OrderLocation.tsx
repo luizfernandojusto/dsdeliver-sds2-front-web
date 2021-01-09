@@ -77,7 +77,7 @@ function OrderLocation({onChangeLocation}: Props) {
                  center={address.position}
                  zoom={15}
                  key={address.position.lat}
-                 scrollWheelZoom={false}>
+                 scrollWheelZoom>
 
                     <TileLayer
                         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
